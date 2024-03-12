@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+#container_dashboard {
+  display: flex;
+  overflow: hidden;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
+}
+
+.total_room,
+.reservation,
+.booked_room,
+.available_room,
+.checkin_room,
+.faculty,
+.register,
+.technical_staff,
+.room_type,
+.report_problem,
+.cancel_scheduling {
+  display: flex;
+  font-size: 1.2rem;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.total_room_heading,
+.reservation_heading,
+.booked_room_heading,
+.available_room_heading,
+.checkin_room_heading,
+.faculty_heading,
+.register_heading,
+.technical_staff_heading,
+.room_type_heading,
+.cancel_scheduling_heading,
+.report_problem_heading {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #393131;
+}
+
+.total_room_icon,
+.reservation_icon,
+.booked_room_icon,
+.available_room_icon,
+.checkin_room_icon,
+.faculty_icon,
+.register_icon,
+.technical_staff_icon,
+.room_type_icon,
+.report_problem_icon,
+.cancel_scheduling_icon {
+  font-size: 3rem;
+}
+
+.total_room_icon {
+  color: #13a45c;
+}
+
+.reservation_icon {
+  color: #1d87cf;
+}
+
+.room_type_icon {
+  color: #bd4d81;
+}
+
+.booked_room_icon {
+  color: #7acf25;
+}
+
+.available_room_icon {
+  color: #e625bc;
+}
+
+.checkin_room,
+.faculty,
+.register,
+.technical_staff,
+.report_problem,
+.cancel_scheduling,
+.available_room {
+  margin-top: 3.2rem;
+}
+
+.checkin_room_icon {
+  color: #e0dc11;
+}
+
+.faculty_icon {
+  color: #eb1818;
+}
+
+.technical_staff_icon {
+  color: #52a183;
+}
+
+.register_icon {
+  color: #1dcdca;
+}
+
+.report_problem_icon {
+  color: #5654aa;
+}
+
+.cancel_scheduling_icon {
+  color: #418195;
+}
